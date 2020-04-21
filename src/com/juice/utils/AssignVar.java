@@ -5,13 +5,12 @@ package com.juice.utils;
  */
 public class AssignVar {
     /**
-     * 将输入的字符串分割，调用Transfer方法转换str[3]，为整型
-     * @param str 传入的字符串
+     * 解析赋值语句，将变量名称和变量数值存储入Map键值对
+     * @param str 传入的字符串，格式为：“整数 气温 等于 十”
      */
     public static void assignVar(String str){
         String[] str1=str.split("\\s+");
         int toInt=Transfer.toNum(str1[3]);
-        System.out.println(toInt);
         Variable.setVar(str1[1],toInt);
     }
 }
