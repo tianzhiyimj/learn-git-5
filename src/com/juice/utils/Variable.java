@@ -9,6 +9,8 @@ import java.util.Map;
 public class Variable {
     private static Map<String, Integer> varMap = new HashMap<>();
 
+
+
     /**
      * 根据中文变量名称得到变量值
      *
