@@ -10,7 +10,7 @@ public class JudgeOperator {
      * 调用Variable的getVar()方法来获取变量
      *
      * @param str 传入的字符串，格式为：“气温 大于 八”
-     * @return 默认返回失败。
+     * @return 默认返回失败
      */
     public static boolean judgeOperator(String str) {
         String[] str1 = str.split("\\s+");
