@@ -9,7 +9,7 @@ public class AssignVarTest {
     @Test
     public void assignVarTest(){
         AssignVar.assignVar("整数 气温 等于 十");
-        int a=Variable.getVar("气温");
-        Assert.assertEquals(10,a);
+        int temp=Variable.getVar("气温");
+        Assert.assertEquals(10,temp);
     }
 }
