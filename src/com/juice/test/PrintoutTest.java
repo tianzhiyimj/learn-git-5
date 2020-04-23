@@ -1,7 +1,7 @@
 package com.juice.test;
 
-import com.juice.utils.Variable;
 import com.juice.utils.Printout;
+import com.juice.utils.Variable;
 import org.junit.Assert;
 import org.junit.Test;
 
